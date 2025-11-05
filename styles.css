@@ -1,0 +1,136 @@
+
+
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:#111;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+
+.container{
+  max-width:fit-content;
+  margin:0;
+  padding:20px;
+}
+
+
+.site-header{
+  background: #dedada;
+  border-bottom: 1px solid #e6e6e9;
+}
+.header-inner{
+  display:flex;
+  align-items:center;
+  gap:1rem;
+  justify-content:space-between;
+  padding:0.75rem 0;
+}
+
+
+.logo{
+  font-weight:700;
+  font-size:1.1rem;
+  color:var(--brand);
+  text-decoration:none;
+}
+
+
+.main-nav ul{
+  display:flex;
+  gap:5px;
+  list-style:none;
+  margin:0;
+  padding:0;
+  align-items:center;
+}
+.main-nav a{
+  text-decoration:none;
+  color:#c94d0a;
+  padding:0.35rem 0.6rem;
+  border-radius:8px;
+  display:inline-block;
+}
+.main-nav a:hover,
+.main-nav a:focus{background:#f0f6f8}
+.main-nav a.active{background:rgba(10,108,143,0.08);}
+
+.nav-toggle{
+  display:none;
+}
+.nav-toggle-btn{
+  display:none;
+  width:46px;
+  height:36px;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  border-radius:8px;
+}
+
+.hero{
+  padding:3.25rem 0;
+  background:linear-gradient(180deg, #e9f6fb 0%, #ffffff 60%);
+}
+.hero-inner{max-width:var(--max-content-width); margin:0 auto; text-align:left}
+.hero h1{margin:0 0 .5rem; font-size:clamp(1.6rem, 3vw, 2.4rem)}
+.subhead{color:var(--muted); margin:0 0 1rem}
+.btn{
+  display:inline-block;
+  text-decoration:none;
+  border:1px solid #ddd;
+  padding:0.5rem 0.9rem;
+  border-radius:8px;
+  font-weight:600;
+  background:transparent;
+}
+.card, .service-card{
+
+  padding:1rem;
+  border-radius:var(--radius);
+  box-shadow:0 1px 3px rgba(15,15,15,0.03);
+}
+.
+
+
+.contact-form{display:grid; flex-direction:column; max-width:600px}
+.contact-form input, .contact-form textarea{
+  padding:0.6rem;
+  border:1px solid #2626cb;
+  border-radius:8px;
+  font:inherit;
+}
+.contact-form label{font-weight:500; font-size:0.95rem}
+.contact-page .lead{margin-bottom:1rem}
+
+.site-footer{padding:1rem 0; border-top:1px solid #e6e6e9; background:#fff}
+.footer-inner{max-width:var(--max-width); margin:0 auto}
+
+
+.brand{ color: firebrick;}
+  
+  .main-nav {
+    position:absolute;
+    left:0; right:0;
+    background:#000000;
+    margin-top:56px;
+    transform-origin:top;
+    border-bottom:1px solid #7d7dbe;
+    display:none;
+    z-index:10;
+    padding:15px;
+  }  
+  }
+h1 {
+  color:#1316da}
+  h2 {
+  color:#da1313}
+  h3 {
+  color:#13da5f}
+  h4 {
+  color:#6450a5}
+
